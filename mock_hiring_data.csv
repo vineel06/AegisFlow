@@ -1,0 +1,11 @@
+Candidate_ID,Role,Gender,Algorithmic_Score,Decision
+CAND-001,Software Engineer,Male,88,Approved
+CAND-002,Software Engineer,Female,72,Rejected
+CAND-003,Data Scientist,Male,91,Approved
+CAND-004,Software Engineer,Male,85,Approved
+CAND-005,Data Scientist,Female,74,Rejected
+CAND-006,Product Manager,Male,89,Approved
+CAND-007,Software Engineer,Female,70,Rejected
+CAND-008,Data Scientist,Male,92,Approved
+CAND-009,Product Manager,Female,76,Rejected
+CAND-010,Software Engineer,Male,87,Approved
