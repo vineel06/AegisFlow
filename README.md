@@ -3,6 +3,12 @@
 
 AegisFlow is an automated AI bias detection and mitigation platform built for the Google Solution Challenge (Theme: Unbiased AI Decision). It acts as an interactive "AI Ethics Consultant" for organizations utilizing automated decision-making systems.
 
+## 👥 The Team
+* VARRE SAI VINEEL - Lead Full-Stack Developer, UI/UX Engineer, & Gemini AI Architect (Built & Deployed the Prototype)
+* GUNDU PHANI BHASKARA ISHANTH - Product Strategy & Presentation Design
+* VELAMKAYALA SAI GANESH - Demo Video Production & Feature Walkthrough
+* CHELLANKI LAKSHMAN SAI DEEPAK - Project Management & Final Submission Coordination
+
 ## 🚨 The Problem
 Computer programs now make life-changing decisions about who gets a job, a bank loan, or medical care. If these systems learn from flawed historical data, they amplify discriminatory mistakes. Organizations often lack accessible tools to measure, flag, and fix this hidden unfairness.
 
