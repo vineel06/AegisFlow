@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AegisFlow 🛡️
+**Illuminating the Invisible Algorithms.**
 
-## Getting Started
+AegisFlow is an automated AI bias detection and mitigation platform built for the Google Solution Challenge (Theme: Unbiased AI Decision). It acts as an interactive "AI Ethics Consultant" for organizations utilizing automated decision-making systems.
 
-First, run the development server:
+## 🚨 The Problem
+Computer programs now make life-changing decisions about who gets a job, a bank loan, or medical care. If these systems learn from flawed historical data, they amplify discriminatory mistakes. Organizations often lack accessible tools to measure, flag, and fix this hidden unfairness.
 
-```bash
+## 💡 Our Solution
+AegisFlow provides a clear, accessible dashboard to inspect datasets for hidden discrimination. Instead of just flagging mathematical anomalies, AegisFlow integrates with Google's **Gemini 2.5 Flash** to provide plain-English explanations of the bias and generate actionable, step-by-step mitigation strategies.
+
+## ✨ Key Features
+* **Secure Data Ingestion:** Upload CSV datasets (e.g., historical hiring data) directly into the browser for rapid inspection.
+* **Real-Time Bias Metrics:** Instantly calculates Disparate Impact Ratios and flags high-risk demographic features.
+* **Interactive Data Inspector:** A heavy, dark-themed UI to sort, filter, and export demographic data seamlessly.
+* **Gemini Ethics Core:** One-click integration with Google's Gemini API to generate a comprehensive algorithmic bias vulnerability report and mitigation strategy.
+
+## 🛠️ Technology Stack
+* **Frontend:** Next.js 16 (App Router), React, Tailwind CSS
+* **UI/UX:** Framer Motion (Animations), Recharts (Data Visualization), Lucide React (Icons)
+* **AI Integration:** `@google/generative-ai` SDK (Gemini 2.5 Flash)
+* **Deployment:** Vercel
+
+## 🚀 Getting Started (Local Development)
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/vineel06/AegisFlow.git](https://github.com/vineel06/AegisFlow.git)
+Install dependencies:
+
+Bash
+npm install
+Configure Environment Variables:
+Create a .env.local file in the root directory and add your Google Gemini API key:
+
+Code snippet
+GEMINI_API_KEY=your_actual_api_key_here
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+***
