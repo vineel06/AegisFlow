@@ -9,6 +9,9 @@ AegisFlow is an automated AI bias detection and mitigation platform built for th
 * VELAMKAYALA SAI GANESH - Demo Video Production & Feature Walkthrough
 * CHELLANKI LAKSHMAN SAI DEEPAK - Project Management & Final Submission Coordination
 
+## Demo Video Link
+https://youtu.be/-TO34IPGwBk?si=1Ko8w1_fCCIobCxB
+
 ## 🚨 The Problem
 Computer programs now make life-changing decisions about who gets a job, a bank loan, or medical care. If these systems learn from flawed historical data, they amplify discriminatory mistakes. Organizations often lack accessible tools to measure, flag, and fix this hidden unfairness.
 
